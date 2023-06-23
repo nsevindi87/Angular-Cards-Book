@@ -33,6 +33,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 3-cd HelloApp
 4-npm start veya ng serve
 5-ng generate component components/header
-
-
+6- module.ts routing module eklenmeli 
+7-app-routing.module.ts ekle ve icine route tanimla
  -->
