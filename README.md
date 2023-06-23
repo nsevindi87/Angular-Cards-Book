@@ -32,5 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 2- ng new HelloApp
 3-cd HelloApp
 4-npm start veya ng serve
-5-
+5-ng generate component components/header
+
+
  -->
