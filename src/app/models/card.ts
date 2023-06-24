@@ -1,6 +1,6 @@
 export interface Card {
     name:string;
-    title:string;
+    username:string;
     phone:string;
     email:string;
     adress:string;

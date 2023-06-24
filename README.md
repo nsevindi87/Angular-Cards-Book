@@ -63,4 +63,7 @@ ng g interface models/card;
 burada veri türünü tanimla ve any yerine bu modeli  koy.
 @Input a ilk basta veri gelmedigi icin hata verir. önlemek icin ünlem koy !
 
+
+12-API dan veri almak icin ng g s services/card ile service olusturulur.
+HTTPClient tanimlanir ve module icinde de import edilir.
  -->

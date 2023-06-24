@@ -10,14 +10,7 @@ import {CardModalComponent} from './card-modal/card-modal.component';
 })
 export class CardsComponent implements OnInit{
 
-  cardItem={
-    name:"Nizami Sevindi",
-    title:"Fullstack",
-    phone: "077 999 88 99",
-    email: "info@yasmin.com",
-    adress: "Zurich - Switzerland"
-
-  }
+ 
   constructor(
     public dialog: MatDialog
   ){}
@@ -25,7 +18,9 @@ export class CardsComponent implements OnInit{
   ngOnInit(): void {
   }
 
-  openAddCardModal(){
-    this.dialog.open(CardModalComponent)
+  openAddCardModal():void {
+    this.dialog.open(CardModalComponent, {
+      width:"400px"
+    })
   }
 }
