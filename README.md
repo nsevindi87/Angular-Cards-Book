@@ -58,7 +58,9 @@ Cards icerisinde komponenti cagirdiktan sonra icinde gösnderiyoruz
 <app-card-item [cardItem]="cardItem"></app-card-item>
 CARD TS icerisinde de  class icerisinde  @Input() cardItem: any; seklinde veriyi aliyoruz
 ve HTML icerisinde kullanabiliyoruz.
-
-
+gelen veri türünü belirlemek icin bir mol olustur: 
+ng g interface models/card;
+burada veri türünü tanimla ve any yerine bu modeli  koy.
+@Input a ilk basta veri gelmedigi icin hata verir. önlemek icin ünlem koy !
 
  -->

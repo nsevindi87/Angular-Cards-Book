@@ -6,6 +6,8 @@ import { CardsComponent } from './cards.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { CardItemComponent } from './card-item/card-item.component';
+import {MatDialogModule} from '@angular/material/dialog';
+
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import { CardItemComponent } from './card-item/card-item.component';
     CommonModule,
     CardsRoutingModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
   ]
 })
 export class CardsModule { }
