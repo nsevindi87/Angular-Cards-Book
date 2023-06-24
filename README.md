@@ -33,6 +33,20 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 3-cd HelloApp
 4-npm start veya ng serve
 5-ng generate component components/header
-6- module.ts routing module eklenmeli 
-7-app-routing.module.ts ekle ve icine route tanimla
+6- material angular io eklenecek
+ng add @angular/material
+kullanilacak olanlar module icerisinde import edilir ve hangi isimle
+import edildiye o isim altta imports icine eklenir.
+7-module.ts routing module eklenmeli 
+8-app-routing.module.ts ekle ve icine route tanimla
+9- bootstrap ekleme npm i bootstrap
+angular.json icerisine
+-"styles": [
+              "bootstrap/dist/css/bootstrap.css",
+            ],
+            "scripts": [
+              "bootstrap/dist/js/bootstrap.js"
+            ]
+eklenir.
+material ve bootstrap eklenimi sonrasi yeniden calistirilimasi gerekir
  -->
