@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
   //Komponent bu isim ile cagrilir
   selector: 'app-root',
 
-  //HTML YAPISI BU DOSYADA YAPILIR
+  //HTML ve CSS YAPISI BU DOSYADA TANIMLANIR
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
