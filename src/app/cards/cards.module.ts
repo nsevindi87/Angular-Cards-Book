@@ -11,8 +11,6 @@ import { CardModalComponent } from './card-modal/card-modal.component';
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-
-
 @NgModule({
   declarations: [
     CardsComponent,
