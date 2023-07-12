@@ -1,8 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
-
 html,
 body {
     height: 100%;
+}
+
+:root{
+    --primary-color: #ddff00;
+    --secondary-color: #162328
 }
 
 body {
