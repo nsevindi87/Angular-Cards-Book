@@ -8,6 +8,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './sharepage/navbar/navbar.component';
 import { FooterComponent } from './sharepage/footer/footer.component';
+import { MenuComponent } from './pages/menu/menu.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
 
 
 @NgModule({
@@ -16,7 +20,11 @@ import { FooterComponent } from './sharepage/footer/footer.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    MenuComponent,
+    AboutComponent,
+    ContactComponent,
+    HomeComponent
   ],
 
 
