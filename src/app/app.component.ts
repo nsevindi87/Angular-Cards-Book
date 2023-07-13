@@ -13,8 +13,4 @@ import { RouterModule } from '@angular/router';
 
 export class AppComponent {
 
-  //DEGISKENLER BURADA YAPILIR - Global degiskendir
-  title = 'cards-book';
-
-//Bu degiskenlere fonksiyon icerisinde this.title olarak erisilir.
 }
