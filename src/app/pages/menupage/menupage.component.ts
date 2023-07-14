@@ -1,6 +1,6 @@
 import { Component,OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { OrderDetailsService } from '../../../../../OrnekAngular12Projesi/src/app/services/order-details.service';
+import { OrderDetailsService } from 'src/app/services/order-details.service';
 
 @Component({
   selector: 'app-menupage',
@@ -18,6 +18,7 @@ export class MenupageComponent implements OnInit{
       this.menuData = this.service.foodDetails.filter((value)=>{
         return value.id == this.getMenuId
     })
+    console.log(this.menuData)
   }
 }
 }
