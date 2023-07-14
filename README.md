@@ -50,20 +50,9 @@ angular.json icerisine
 eklenir.
 material ve bootstrap eklenimi sonrasi yeniden calistirilimasi gerekir
 
-10- state olarak TS dosyasindaki class yapisinin ici kullanilabilir. oraya yazinca import export gerek kalmadan {{xxx}}
-olarak html icerisinde kullanilabiliyor.
-
-11- CARDS TS icinde olusturudugumuz cardItem objecti alt komponente gönderecegiz.
-Cards icerisinde komponenti cagirdiktan sonra icinde gösnderiyoruz
-<app-card-item [cardItem]="cardItem"></app-card-item>
-CARD TS icerisinde de  class icerisinde  @Input() cardItem: any; seklinde veriyi aliyoruz
-ve HTML icerisinde kullanabiliyoruz.
-gelen veri türünü belirlemek icin bir mol olustur: 
-ng g interface models/card;
-burada veri türünü tanimla ve any yerine bu modeli  koy.
-@Input a ilk basta veri gelmedigi icin hata verir. önlemek icin ünlem koy !
-
-
 12-API dan veri almak icin ng g s services/card ile service olusturulur.
-HTTPClient tanimlanir ve module icinde de import edilir.
+
+Url de /menu/2 olarak yemeklerin icine girebilecek route olusturduk
+service icindeki verileri yazdirdik. for döngüsüyle
+if yapisini belli sayida kart göstermek icin kullandik
  -->
