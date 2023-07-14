@@ -12,6 +12,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { MenupageComponent } from './pages/menupage/menupage.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HomeComponent } from './pages/home/home.component';
     MenuComponent,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    MenupageComponent
   ],
 
   imports: [
