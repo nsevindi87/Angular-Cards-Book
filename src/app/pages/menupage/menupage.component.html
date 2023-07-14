@@ -1,5 +1,4 @@
 <div class="container mt-5 mb-5">
-
     <div class="row">
         <div class="col-lg-6" *ngIf="menuData">
             <a routerLink="../../menu" class="btn btn-sm btn-dark mb-3 ">Back</a>
@@ -8,22 +7,14 @@
             <p>{{menuData[0].foodDetails}}</p>
             <p>{{menuData[0].foodPrice | currency :'$'}}</p>
         </div>
-
         <div class="col-lg-6 col-12">
             <h1>Enter Your Details</h1>
             <form>
-
                 <input type="text" class="form-control" placeholder="Enter Your Full Name" />
                 <input type="text" class="form-control my-3" placeholder="Enter Your Mobile" />
                 <textarea class="form-control" placeholder="Enter Your Address"></textarea>
                 <button class="btn btn-md btn-dark mt-3">Place Order</button>
-
             </form>
-
-
         </div> 
-
-
     </div>
-
 </div>
